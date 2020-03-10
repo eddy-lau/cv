@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #990033;
 }
 
 .dev-icons {
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #990033;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +90,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #e6004d;
 }
 
 @media (min-width: 992px) {
@@ -159,18 +159,35 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.app-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browser */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.49);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dev-icon {
+  margin-bottom: 20px;
+  height: 48px;
+}
+
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #990033 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #990033 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #990033;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #4d001a;
 }
