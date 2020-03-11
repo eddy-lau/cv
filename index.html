@@ -310,49 +310,46 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-              <img class="dev-icon" src="img/ionic.png">
+            <i class="fab fa-app-store-ios" data-toggle="tooltip" data-placement="bottom" title="Xcode"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-swift"></i>
+              <img class="dev-icon" src="img/ionic.png" data-toggle="tooltip" data-placement="bottom" title="Ionic">
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-swift" data-toggle="tooltip" data-placement="bottom" title="Swift"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-html5" data-toggle="tooltip" data-placement="bottom" title="HTML5"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Github"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-vuejs"></i>
+            <i class="fab fa-vuejs" data-toggle="tooltip" data-placement="bottom" title="Vue.js"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <i class="fab fa-angular" data-toggle="tooltip" data-placement="bottom" title="Angular"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <i class="fab fa-react" data-toggle="tooltip" data-placement="bottom" title="React"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <i class="fab fa-node-js" data-toggle="tooltip" data-placement="bottom" title="Node.JS"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
+            <i class="fab fa-sass" data-toggle="tooltip" data-placement="bottom" title="SAAS"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-less"></i>
+            <i class="fab fa-less" data-toggle="tooltip" data-placement="bottom" title="LESS"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
+            <i class="fab fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="Wordpress"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
+            <i class="fab fa-gulp" data-toggle="tooltip" data-placement="bottom" title="Gulp"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+            <i class="fab fa-npm" data-toggle="tooltip" data-placement="bottom" title="NPM"></i>
           </li>
         </ul>
 
@@ -411,6 +408,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function () {
+      jQuery('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
 </body>
 
